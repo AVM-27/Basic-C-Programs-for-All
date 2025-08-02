@@ -1,32 +1,51 @@
 /*
- * Filename    : functions/nested_function_call_max.c
- * Description : Demonstrates nested function calls by using a max function to find the maximum of three numbers.
+ * Filename    : Functions/NestedFunctionCallMax.c
+ * Description : Demonstrates nested function calls to find the maximum of three numbers using a simple max() function.
  * Author      : Adarsh Venugopal (https://github.com/AVM-27)
  * Date        : 2025-08-02
  *
- * Functionality:
- *  - A `max` function returns the larger of two integers using the ternary operator.
- *  - This function is used in a nested call to find the maximum of three numbers.
+ * 📌 Program Overview:
+ *  - Defines a `max()` function that takes two integers and returns the greater one.
+ *  - Uses nested function calls to determine the maximum among three numbers.
+ *  - Demonstrates how nested function calls work and how the ternary operator is used.
  *
- * Sample Output:
- * 11
+ * 🔍 Key Concepts for Students:
+ *  - **Ternary Operator**: A compact form of `if-else` used as: `(condition) ? true_value : false_value`
+ *  - **Nested Function Calls**: A function call used inside another function call.
+ *  - **Modular Programming**: Breaking logic into functions makes code reusable and easier to read.
+ *
+ * 📥 Input:
+ *  - No user input in this version. Values (4, 11, 6) are hardcoded.
+ *
+ * 🖨️ Output:
+ *  - Prints the largest of the three values to the console.
+ *
+ * 🧠 How It Works:
+ *  - Step 1: `max(11, 6)` is evaluated first and returns `11`.
+ *  - Step 2: `max(4, 11)` is evaluated next, and the final result is `11`.
+ *
+ * 📌 Sample Output:
+ *    11
+ *
+ * 💡 Suggested Enhancement:
+ *  - Allow user input to test the function with different values.
  */
 
 #include <stdio.h>
 
-// Returns the greater of two integers
+// Function to return the maximum of two integers
 int max(int x, int y) {
-    return (x > y) ? x : y;
+    return (x > y) ? x : y;  // Ternary operator: returns the greater of x and y
 }
 
 int main() {
-    int m;
+    int result;
 
-    // Nested function call to find max of 4, 11, and 6
-    m = max(4, max(11, 6));  // max(4, 11) = 11 → m = 11
+    // Using nested max() calls to find the maximum of 3 numbers: 4, 11, 6
+    result = max(4, max(11, 6));  // max(11, 6) = 11 → max(4, 11) = 11
 
     // Output the result
-    printf("%d\n", m);
+    printf("%d\n", result);  // Output: 11
 
     return 0;
 }
