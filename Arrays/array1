@@ -1,0 +1,53 @@
+/*
+ * Filename    : Arrays/array1.c
+ * Description : Reads an integer n and stores the squares of 0 to n-1 in an array,
+ *               then prints each square with its index.
+ * Author      : Adarsh Venugopal (https://github.com/AVM-27)
+ * Date        : 2025-08-02
+ *
+ * Program Details:
+ *  - Prompts the user to enter the size of the array.
+ *  - Creates an array of size n to hold integer squares.
+ *  - Computes the square of each index and stores it in the array.
+ *  - Prints the index and corresponding square stored.
+ *
+ * Input:
+ *  - Size of array (n), a positive integer.
+ *
+ * Output:
+ *  - For each index i (0 to n-1), prints the square of i.
+ *
+ * Example:
+ *  Enter the size of your integer squares array
+ *  5
+ *  At index 0 the square stored is 0
+ *  At index 1 the square stored is 1
+ *  At index 2 the square stored is 4
+ *  At index 3 the square stored is 9
+ *  At index 4 the square stored is 16
+ */
+
+#include <stdio.h>
+
+int main()
+{
+    int n, i;
+
+    printf("Enter the size of your integer squares array\n");
+    scanf("%d", &n);
+
+    if (n <= 0) {
+        printf("Error: Size must be a positive integer.\n");
+        return 1;
+    }
+
+    int squares[n];  // Variable length array (C99 and later)
+
+    for (i = 0; i < n; i++)
+    {
+        squares[i] = i * i; // Calculate square
+        printf("At index %d the square stored is %d\n", i, squares[i]);
+    }
+
+    return 0;
+}
