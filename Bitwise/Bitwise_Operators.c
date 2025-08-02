@@ -1,5 +1,5 @@
 /*
- * Filename    : basics/Bitwise_operators.c
+ * Filename    : Bitwise/Bitwise_operators.c
  * Description : Demonstrates all major bitwise operators in C — AND, OR, XOR,
  *               NOT (complement), left shift, and right shift — using integers.
  * Author      : Adarsh Venugopal (https://github.com/AVM-27)
