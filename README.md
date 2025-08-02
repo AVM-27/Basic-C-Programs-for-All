@@ -1,6 +1,6 @@
 # Beginner C Programs — Fully Corrected & Explained
 
-This repo contains 92 foundational C programs, carefully corrected, renamed, and commented for first-time learners.
+This repo contains many foundational C programs, carefully corrected, renamed, and commented for first-time learners.
 
 Built to help students understand not just *what* the code does — but *how* and *why* it works.
 
