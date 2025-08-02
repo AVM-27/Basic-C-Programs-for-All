@@ -1,2 +1,23 @@
-# Basic-C-Programs-for-All
-92 beginner C programs — corrected, renamed, and line-by-line explained. A student-friendly archive built for clarity, confidence, and clean code. Perfect for anyone starting out with C and tired of cryptic, uncommented examples.
+# 📘 92 Beginner C Programs — Fully Corrected & Explained
+
+This repo contains 92 foundational C programs, carefully corrected, renamed, and commented for first-time learners.
+
+Built to help students understand not just *what* the code does — but *how* and *why* it works.
+
+---
+
+## ✅ Features
+- 92 beginner-level C programs
+- Fully corrected and cleaned
+- Line-by-line comments for clarity
+- Propere headers describing each program
+- Clearly renamed 
+
+---
+
+## 🧑‍🎓 Who It's For
+- First-time programmers
+- Engineering students learning C for the first time
+- Anyone tired of messy, uncommented code examples
+
+---
