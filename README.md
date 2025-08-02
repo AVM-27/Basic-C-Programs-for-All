@@ -3,6 +3,8 @@
 A crash course in C, minus the crashing.  
 This repo is for anyone who opened a `.c` file, blinked twice, and whispered _“printf what now?”_
 
+> _“I didn’t choose the C life. The C life `#included` me.”_
+
 ---
 
 ## 📌 What’s This?
