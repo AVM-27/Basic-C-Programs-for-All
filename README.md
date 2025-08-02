@@ -9,9 +9,6 @@ A collection of beginner-friendly C programs, crafted for first-time learners an
 - [Getting Started](#getting-started)
 - [Example Topics Covered](#example-topics-covered)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## About the Project
 
@@ -33,12 +30,14 @@ Learning C shouldn’t feel like encountering a segmentation fault in real life.
 To get going:
 
 1. Clone the repository:
+''' bash
 git clone https://github.com/AVM-27/Basic-C-Programs-for-All.git
 
-2. Enter the folder and browse through the variety of sample codes.
+3. Enter the folder and browse through the variety of sample codes.
 
-3. Compile and run programs with your favorite C compiler:
-4. 4. Read, experiment, and enjoy—you might even smile at a well-placed comment.
+4. Compile and run programs with your favorite C compiler
+
+6. 4. Read, experiment, and enjoy—you might even smile at a well-placed comment.
 
 ## Example Topics Covered
 
