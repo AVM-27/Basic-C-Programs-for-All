@@ -1,18 +1,26 @@
 /*
- * File: helloworld.c
- * ------------------
- * Note: A straightforward program to demonstrate printing multiple
- * lines of text to the console using the printf function.
+ * Filename    : basics/helloworld.c
+ * Description : A simple C program that demonstrates printing multiple
+ *               lines of text to the console using the printf function.
+ * Author      : Adarsh Venugopal (https://github.com/AVM-27)
+ * Date        : 2025-08-02
+ *
+ * Sample Input:
+ * (no input required)
+ *
+ * Sample Output:
+ * Hello World
+ * I want the rocket to be pointhy pointhy
  */
-#include <stdio.h> // Includes the Standard Input/Output Library for printf.
 
-int main() { // The main function where execution begins.
+#include <stdio.h> // Standard I/O library for printf
 
-    // Print the first line of text. The '\n' character creates a new line.
+int main() {
+    // Output the greeting
     printf("Hello World\n");
 
-    // Print the second line of text.
+    // Output a custom message
     printf("I want the rocket to be pointhy pointhy\n");
 
-    return 0; // Return 0 to indicate the program ran successfully.
+    return 0; // Program executed successfully
 }
