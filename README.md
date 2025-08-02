@@ -21,7 +21,7 @@ Designed for:
 ## ✨ Features
 
 - ✅ Actual working code (no `main()`s missing semicolons here)
-- 🧾 Vivado-style headers at the top of each file
+- 🧾 Comprehensive headers at the top of each file
 - 🧠 Inline comments explaining each line like a helpful TA
 - 💡 Logical filenames (yes, `23_fibonacci.c` is actually a Fibonacci program)
 
