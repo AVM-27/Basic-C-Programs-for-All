@@ -30,8 +30,7 @@ Learning C shouldn’t feel like encountering a segmentation fault in real life.
 To get going:
 
 1. Clone the repository:
-''' bash
-git clone https://github.com/AVM-27/Basic-C-Programs-for-All.git
+``` bash git clone https://github.com/AVM-27/Basic-C-Programs-for-All.git ```
 
 3. Enter the folder and browse through the variety of sample codes.
 
